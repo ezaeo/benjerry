@@ -1,0 +1,36 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.header_main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #0a6082;
+}
+.Menu_Configuration{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    font-size: 20px;
+}
+.Menu_Configuration >li>a{
+    color: #fff;
+}
+.main_img img{
+    width: 100%;
+}
+.main_button{
+    position: fixed;
+    top: 0;
+    width: 124px;
+    height: 60px;
+    z-index: 10000;
+    background: #fff;
+    color: #0475a1;
+    text-align: center;
+    margin-left: auto;
+    display: block;
+}
+
